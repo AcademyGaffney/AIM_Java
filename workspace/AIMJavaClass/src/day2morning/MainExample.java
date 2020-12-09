@@ -7,7 +7,10 @@ public class MainExample {
 			if(args[0].equals("--version")) {
 				System.out.println("MainExample: Version 0.0.1a");
 			}
-			System.out.println(args[i]);
+			else {
+				System.out.println(args[i]);
+			}
+		
 		}
 
 	}
